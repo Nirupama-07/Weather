@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <label class="theme-toggle"><input type="checkbox" id="toggleDark"/>
+            <span class="slider"></span> </label>
+            <div id="first" >
+                <a href="#Today" class="nav">Today</a>
+                <a href="#graphs" class="nav">Graph</a>
+                <a href="#stats" class="nav">Stats</a>
+                <a href="#feedback" class="nav">Feedback</a>
+            </div>
+        </nav>
+    
+    </header>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <section class="hero">
+        <div class="parallax-text">Weather Forecast</div>
+        <p>Your trusted Weather Companion</p>
+    </section>
+    <div id="Today">
+        <section class="showcase">
+            <h2>Today's Weather Highlights</h2>
+            <div class="card-container">
+                <div class="card">35 deg celsius <br>☀️Sunny</div>
+                <div class="card">26 deg celsius <br>☔️Rainy</div>
+                <div class="card">28 deg celsius <br>💭Cloudy</div>
+            </div>
+        </section>
+    </div>
+
+   <section id="graphs" class="image-section">
+    <h2>Embodied Carbon Emissions</h2>
+    <img src="graph.png" alt="Carbon Emissions Chart" class="responsive-img">
+   </section>
+
+   <section id="stats" class="image-section">
+    <h2>Portfolio Energy and carbon stats</h2>
+    <img src="stats.png" alt="Portfolio stats" class="responsive-img">
+   </section>
+    <div id="feedback">
+        <section class="feedback">
+            <h2>What our users say</h2>
+            <div class="carousel">
+                <div class="carousel-item active">"Simple and accurate"-Lisa</div>
+                <div class="carousel-item">"Best weather UI"-Raj</div>
+            </div>
+        </section>
+    </div>
+
+    
+    <section class="customers">
+        <h2>Our Trusted Partners</h2>
+        <div class="brands">
+            <div>🌦️WeatherNow</div>
+            <div>🍃ForecastPro</div>
+            <div>🌤️SuunySun</div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
